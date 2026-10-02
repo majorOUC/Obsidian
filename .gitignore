@@ -1,0 +1,18 @@
+# --- Obsidian 本地状态（易变，不进版本控制） ---
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/graph.json.bak
+
+# --- 插件本地缓存/会话数据 ---
+.claudian/
+.dashboard-backup/
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# --- Obsidian 回收站 ---
+.trash/

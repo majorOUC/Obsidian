@@ -1,0 +1,10 @@
+{
+  "showViewHeader": false,
+  "showRibbon": true,
+  "nativeMenus": false,
+  "cssTheme": "Primary",
+  "theme": "moonstone",
+  "accentColor": "",
+  "enabledCssSnippets": [],
+  "textFontFamily": ""
+}

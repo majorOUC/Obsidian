@@ -1,0 +1,65 @@
+/* ============================================================
+   暗色代码块（VS Code Dark+ 配色）
+   在 设置 → 外观 → CSS 代码片段 中开启本片段后生效
+   覆盖：阅读视图 + 实时预览 + 源码模式中的代码块
+   ============================================================ */
+
+/* ---------- 代码块容器：VS Code 暗色背景 ---------- */
+.markdown-rendered pre,
+.markdown-preview-view pre,
+.cm-s-obsidian .HyperMD-codeblock,
+.cm-editor .HyperMD-codeblock {
+  background: #1e1e1e !important;
+  color: #d4d4d4 !important;
+  font-family: "Cascadia Code", "Consolas", "JetBrains Mono", monospace;
+}
+.markdown-rendered pre,
+.markdown-preview-view pre {
+  border: 1px solid #2d2d2d;
+  border-radius: 8px;
+}
+/* 实时预览里代码块首尾行的圆角 */
+.cm-s-obsidian .HyperMD-codeblock-begin { border-radius: 8px 8px 0 0 !important; }
+.cm-s-obsidian .HyperMD-codeblock-end   { border-radius: 0 0 8px 8px !important; }
+
+/* ---------- 阅读视图语法高亮（highlight.js → VS Code Dark+）---------- */
+.markdown-rendered .hljs, .markdown-preview-view .hljs { color: #d4d4d4; }
+.markdown-rendered .hljs-keyword, .markdown-preview-view .hljs-keyword,
+.markdown-rendered .hljs-selector-tag, .markdown-preview-view .hljs-selector-tag,
+.markdown-rendered .hljs-tag, .markdown-preview-view .hljs-tag { color: #569cd6; }
+.markdown-rendered .hljs-string, .markdown-preview-view .hljs-string,
+.markdown-rendered .hljs-regexp, .markdown-preview-view .hljs-regexp,
+.markdown-rendered .hljs-addition, .markdown-preview-view .hljs-addition { color: #ce9178; }
+.markdown-rendered .hljs-number, .markdown-preview-view .hljs-number,
+.markdown-rendered .hljs-literal, .markdown-preview-view .hljs-literal,
+.markdown-rendered .hljs-deletion, .markdown-preview-view .hljs-deletion { color: #b5cea8; }
+.markdown-rendered .hljs-comment, .markdown-preview-view .hljs-comment,
+.markdown-rendered .hljs-quote, .markdown-preview-view .hljs-quote { color: #6a9955; font-style: italic; }
+.markdown-rendered .hljs-title, .markdown-preview-view .hljs-title,
+.markdown-rendered .hljs-title.function_, .markdown-preview-view .hljs-title.function_,
+.markdown-rendered .hljs-section, .markdown-preview-view .hljs-section { color: #dcdcaa; }
+.markdown-rendered .hljs-type, .markdown-preview-view .hljs-type,
+.markdown-rendered .hljs-class .hljs-title, .markdown-preview-view .hljs-class .hljs-title,
+.markdown-rendered .hljs-built_in, .markdown-preview-view .hljs-built_in { color: #4ec9b0; }
+.markdown-rendered .hljs-attr, .markdown-preview-view .hljs-attr,
+.markdown-rendered .hljs-attribute, .markdown-preview-view .hljs-attribute,
+.markdown-rendered .hljs-variable, .markdown-preview-view .hljs-variable,
+.markdown-rendered .hljs-property, .markdown-preview-view .hljs-property,
+.markdown-rendered .hljs-params, .markdown-preview-view .hljs-params { color: #9cdcfe; }
+.markdown-rendered .hljs-meta, .markdown-preview-view .hljs-meta { color: #c586c0; }
+
+/* ---------- 实时预览 / 源码模式语法高亮（CodeMirror → VS Code Dark+）---------- */
+.cm-s-obsidian .HyperMD-codeblock, .cm-editor .HyperMD-codeblock { color: #d4d4d4; }
+.cm-s-obsidian .HyperMD-codeblock .cm-keyword,
+.cm-s-obsidian .HyperMD-codeblock .cm-tag { color: #569cd6 !important; }
+.cm-s-obsidian .HyperMD-codeblock .cm-string,
+.cm-s-obsidian .HyperMD-codeblock .cm-string-2 { color: #ce9178 !important; }
+.cm-s-obsidian .HyperMD-codeblock .cm-number,
+.cm-s-obsidian .HyperMD-codeblock .cm-atom { color: #b5cea8 !important; }
+.cm-s-obsidian .HyperMD-codeblock .cm-comment { color: #6a9955 !important; font-style: italic; }
+.cm-s-obsidian .HyperMD-codeblock .cm-def { color: #dcdcaa !important; }
+.cm-s-obsidian .HyperMD-codeblock .cm-variable-2,
+.cm-s-obsidian .HyperMD-codeblock .cm-property { color: #9cdcfe !important; }
+.cm-s-obsidian .HyperMD-codeblock .cm-type,
+.cm-s-obsidian .HyperMD-codeblock .cm-builtin { color: #4ec9b0 !important; }
+.cm-s-obsidian .HyperMD-codeblock .cm-meta { color: #c586c0 !important; }

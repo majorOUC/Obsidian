@@ -1,0 +1,16 @@
+{
+  "promptDelete": false,
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "spellcheck": false,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "openBehavior": "",
+  "showUnsupportedFiles": true
+}
