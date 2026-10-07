@@ -69,5 +69,22 @@
   "workspace:goto-tab-3": [],
   "workspace:goto-tab-4": [],
   "workspace:goto-tab-5": [],
-  "workspace:goto-tab-6": []
+  "workspace:goto-tab-6": [],
+  "workspace:edit-file-title": [],
+  "app:go-back": [],
+  "workspace:close-window": [],
+  "workspace:close": [],
+  "switcher:open": [],
+  "app:go-forward": [],
+  "editor:toggle-checklist-status": [],
+  "editor:delete-paragraph": [],
+  "editor:toggle-strikethrough": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ]
 }
