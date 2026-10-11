@@ -3,6 +3,8 @@
 .obsidian/workspaces.json
 .obsidian/cache
 .obsidian/graph.json.bak
+.obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-git/data.json
 
 # --- 插件本地缓存/会话数据 ---
 .claudian/
