@@ -14,7 +14,7 @@ columns:
   - name: Todo
     color: "#6366f1"
     type: todo
-    height: 500
+    height: 496
   - name: Memo
     color: "#f59e0b"
     type: memo
@@ -65,6 +65,7 @@ width: 291
 id: card-mu80t4dz
 type: task
 width: 273
+- [ ] 怎么保证ai写的代码是可用的
 - [ ] nginx，tomcat是怎么实现那么多请求都传来也不会崩溃的
 - [ ] 能不能不用AOP也不用拦截器也不用spring框架中的机制来实现对请求的参数校验吗？
 - [ ] 高并发场景中能不能不用线程池来实现异步并行操作，虚拟线程和内核线程是绑定的关系吗？
